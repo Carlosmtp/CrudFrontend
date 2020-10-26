@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <H1>CRUD</H1>
+    </head>
+    <body>
+        <H2>Create</H2>
+        <form method="post" action="http://localhost:3000/create" id="formulario">
+            <p><input placeholder="Cedula" id="cedula" name="cedula" type="number"></p>
+            <p><input placeholder="Nombre Paciente" id="nombre" name="nombre" type="text"></p>
+            <p><input placeholder="Apellido Paciente" id="apellido" name="apellido" type="text"></p>
+            <p><button id="create" type="submit">Create</button></p>
+         </form>
+         <br>
+         <H2>Read</H2>
+         <form method="post" action="http://localhost:3000/read" id="formulario">
+            <p><input placeholder="ID" id="id" name="id" type="number"></p>
+            <p><button id="read" type="submit">Read</button></p>
+         </form>
+         <br>
+         <H2>Update</H2>
+        <form method="post" action="http://localhost:3000/update" id="formulario">
+            <p><input placeholder="ID" id="id" name="id" type="number"></p>
+            <p><input placeholder="Cedula" id="cedula" name="cedula" type="number"></p>
+            <p><input placeholder="Nombre Paciente" id="nombre" name="nombre" type="text"></p>
+            <p><input placeholder="Apellido Paciente" id="apellido" name="apellido" type="text"></p>
+            <p><button id="update" type="submit">Update</button></p>
+         </form>
+         <br>
+         <H2>Delete</H2>
+         <form method="post" action="http://localhost:3000/delete" id="formulario">
+            <p><input placeholder="ID" id="id" name="id" type="number"></p>
+            <p><button id="delete" type="submit">Delete</button></p>
+         </form>
+    </body>
